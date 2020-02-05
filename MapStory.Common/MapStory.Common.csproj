@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MapStory.Core\MapStory.Core.csproj" />
+    <ProjectReference Include="..\MapStory.DataAccess\MapStory.DataAccess.csproj" />
+    <ProjectReference Include="..\MapStory.Services\MapStory.Services.csproj" />
+  </ItemGroup>
+
+</Project>
